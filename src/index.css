@@ -16,14 +16,19 @@ code {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px;
+  margin: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  
+  height: 250px;
 }
 
 .post__image {
-  width: 500px;
-  height: 500px;
-  background-position: center;
+  flex: 0.3;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.post__info {
+  flex: 1;
+  padding: 15px 30px;
 }
