@@ -1,5 +1,5 @@
-import unirest from "./node_modules/unirest";
-import cheerio from "cheerio";
+const unirest = require("unirest");
+const cheerio = require("cheerio");
 
 function parsePost(url, titleClass, imageClass, imageAttr, textClass, commentsClass, isSlice) {
     unirest.get(url).end(function(response) {

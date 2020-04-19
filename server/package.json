@@ -7,9 +7,13 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.5"
+    "@babel/preset-env": "^7.9.5",
+    "unirest": "^0.6.0"
   },
   "scripts": {
     "start": "npx babel index.js --out-dir dist && node dist/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
   }
 }
